@@ -1,0 +1,857 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#222262, rgba(36, 36, 218, 0.486));
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+h2, h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+#carousel {
+  border-style: solid;
+  border-width: 6px;
+  border-color: white;
+  padding: 5px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  border-style: solid;
+  border-width: 6px;
+  border-color: white;
+  padding: 5px;
+}
+
+#inicio {
+  background-color: rgba(107, 99, 128, 0.541);
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.inicio {
+  border: solid 3px white;
+  padding: 10px;
+}
+
+#inicio1 {
+  background-image: url(./Img/granMeliáIguazúC.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#inicio2 {
+  background-image: url(./Img/hotelNahuelHuapiB.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#inicio3 {
+  background-image: url(./Img/mariaFloralesM.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#hotel, #hotel2 {
+  width: 650vp;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@keyframes animate__slideInLeft {}
+.lista {
+  color: white;
+  font-weight: bold;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+.subtitulos {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(107, 99, 128, 0.541);
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.vuelos {
+  background-color: rgba(107, 99, 128, 0.541);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 10px;
+}
+
+.vuelo {
+  background-color: salmon;
+  font-size: 30px;
+  color: black;
+  border: 3px solid white;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.vuelo1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.vuelo2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.vuelo3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.vuelo4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.vuelo5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.compra {
+  color: white;
+}
+
+.compra:hover {
+  height: 40px;
+  width: 150px;
+  background-color: #52f352;
+  color: black;
+}
+
+#bari1 {
+  background-image: url(./Img/barilocheVuelo1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bari2 {
+  background-image: url(./Img/barilocheVuelo2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bari3 {
+  background-image: url(./Img/barilocheVuelo4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bari4 {
+  background-image: url(./Img/barilocheVuelo3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bari5 {
+  background-image: url(./Img/barilocheVuelo5.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#cata1 {
+  background-image: url(./Img/cataratasV1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cata2 {
+  background-image: url(./Img/cataratasV2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cata3 {
+  background-image: url(./Img/cataratasV3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cata4 {
+  background-image: url(./Img/cataratasV4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cata5 {
+  background-image: url(./Img/cataratasV5.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#rafael1 {
+  background-image: url(./Img/rafaelV1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#rafael2 {
+  background-image: url(./Img/rafaelV2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#rafael3 {
+  background-image: url(./Img/rafaelV4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#rafael4 {
+  background-image: url(./Img/rafaelV3.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#rafael5 {
+  background-image: url(./Img/rafaelV5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#usuahia1 {
+  background-image: url(./Img/usuahiaV1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#usuahia2 {
+  background-image: url(./Img/usuahiaV3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#usuahia3 {
+  background-image: url(./Img/usuahiaV2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#usuahia4 {
+  background-image: url(./Img/usuahiaV5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#usuahia5 {
+  background-image: url(./Img/usuahiaV4.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+footer {
+  color: white;
+  height: 100px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: black;
+}
+
+.vehiculo:hover {
+  transform: scale(1.1);
+}
+
+.reset {
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.reset:hover {
+  height: 40px;
+  width: 150px;
+  background-color: #b4e600;
+  color: black;
+}
+
+@keyframes animate__backInLeft {}
+#contacto {
+  animation: backInLeft;
+  animation-duration: 2s;
+}
+
+.vehiculo1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.vehiculo2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.vehiculo3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.vehiculo4 {
+  grid-column-start: 3;
+  grid-column-end: 2;
+}
+
+#vehiculo {
+  background-color: rgba(107, 99, 128, 0.541);
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.vehiculo {
+  font-size: 30px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.img2 {
+  width: 200px;
+  height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  padding: 5px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  letter-spacing: 3px;
+  padding: 10px;
+  background-color: rgba(107, 99, 128, 0.541);
+}
+
+.imgOrden {
+  width: 600vp;
+}
+
+.imgOrden2 {
+  width: 600vp;
+  height: 400px;
+}
+
+.hotelInicio {
+  width: 600vp;
+  height: 620px;
+  margin: 10px;
+}
+
+.hotelInicio3 {
+  width: 100%;
+  height: 300px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  padding: 5px;
+}
+
+.hotelInicio2 {
+  width: 600vp;
+}
+
+.img {
+  border-style: solid;
+  border-width: 6px;
+  border-color: white;
+  padding: 5px;
+}
+
+table {
+  background-color: #2273f7;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #3b354d;
+}
+
+.table1 {
+  border-color: #3b354d;
+  border-width: 3px;
+  border-style: double;
+}
+
+.parrafo {
+  width: 100%;
+}
+
+.vuelos {
+  background-color: rgba(107, 99, 128, 0.541);
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .imgOrden2 {
+    position: relative;
+  }
+
+  .imgOrden {
+    position: relative;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 350px;
+    position: relative;
+  }
+
+  .parrafo {
+    height: auto;
+  }
+
+  .hotelInicio {
+    position: relative;
+    height: 100%;
+  }
+
+  .hotelInicio3 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+
+  .hotelInicio2 {
+    position: relative;
+  }
+
+  .vuelos {
+    background-color: rgba(107, 99, 128, 0.541);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5";
+  }
+
+  .vuelo {
+    background-color: salmon;
+    color: black;
+    border: 3px solid white;
+    height: 200px;
+    width: 150%;
+  }
+
+  .vuelo1 {
+    grid-area: foto1;
+  }
+
+  .vuelo2 {
+    grid-area: foto2;
+  }
+
+  .vuelo3 {
+    grid-area: foto3;
+  }
+
+  .vuelo4 {
+    grid-area: foto4;
+  }
+
+  .vuelo5 {
+    grid-area: foto5;
+  }
+
+  .subtitulos {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+}
+.div__p {
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: "Padauk", sans-serif;
+  letter-spacing: 3px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  animation: slideInLeft;
+  animation-duration: 5s;
+}
+
+.div__p--align {
+  text-align: justify;
+}
+
+.section__article--border {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgba(107, 99, 128, 0.541);
+}
+
+.div__a--bg {
+  background-color: rgba(107, 99, 128, 0.541);
+}
+
+.table__th--bg {
+  background-color: #054ec2;
+}
+
+.div__form--size {
+  font-size: 14px;
+}
+
+.form__input--borde {
+  border-style: solid;
+  border-color: #222262;
+}
+
+.form__button--border {
+  border-color: white;
+}
+
+.lista--formulario {
+  color: white;
+  font-weight: bold;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+#contacto {
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  background-color: rgba(107, 99, 128, 0.541);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.container__bank {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.container__bank--promo {
+  text-align: center;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.promos {
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asistencia--viajero {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.assistCard {
+  height: 190px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url(./Img/banner-vuelo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo--assist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(107, 99, 128, 0.541);
+  color: white;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Padauk", sans-serif;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#assist {
+  font-family: "Parisienne", cursive;
+  font-size: 50px;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+}
+
+.visa-icon {
+  background-image: url("img/tarjetas/visa.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.master-icon {
+  background-image: url("img/tarjetas/master.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bbva-icon {
+  background-image: url("img/tarjetas/bbva.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.santander-icon {
+  background-image: url("img/tarjetas/santander.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.macro-icon {
+  background-image: url("img/tarjetas/macro.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.icbc-icon {
+  background-image: url("img/tarjetas/icbc.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.provincia-icon {
+  background-image: url("img/tarjetas/provincia.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.nacion-icon {
+  background-image: url("img/tarjetas/nacion.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hipotecario-icon {
+  background-image: url("img/tarjetas/hipotecario.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.itau-icon {
+  background-image: url("img/tarjetas/itau.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.visa-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.master-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.bbva-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.santander-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.macro-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.icbc-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.provincia-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.nacion-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.hipotecario-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.itau-icon {
+  color: rgba(255, 255, 255, 0);
+}
+
+.hotelFilas1 {
+  width: 6em;
+  height: 5em;
+}
+
+.hotelFilas2 {
+  width: 12em;
+  height: 10em;
+}
+
+.hotelFilas3 {
+  width: 18em;
+  height: 15em;
+}
+
+.hotelFilas4 {
+  width: 24em;
+  height: 20em;
+}
+
+.peugeotVe-icon {
+  background-image: url("img/peugeotVe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.PrismaVe-icon {
+  background-image: url("img/PrismaVe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kwidVe-icon {
+  background-image: url("img/kwidVe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.biciVe-icon {
+  background-image: url("img/biciVe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#error404 {
+  background-image: url(./Img/fondo-error.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 100%;
+}
+
+.error {
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 0px 10px 10px;
+  background: none;
+}
+
+.error404 {
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#semaforo {
+  width: 7%;
+  height: 7%;
+  margin: 0 auto;
+}
+
+.semaforo {
+  width: 90%;
+  height: 90%;
+  animation: rubberBand;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.mapa {
+  width: 25%;
+  height: 25%;
+}
+
+#mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.volver--inicio {
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
