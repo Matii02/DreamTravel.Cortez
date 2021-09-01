@@ -568,7 +568,7 @@ table{
 }
 @each $card in visa , master , bbva , santander , macro , icbc , provincia , nacion , hipotecario , itau {
     .#{$card}-icon{
-        background-image: url("img/tarjetas/#{$card}.png");
+        background-image: url("Img/tarjetas/#{$card}.png");
         background-size: cover;
         background-position: center;
     }
@@ -586,7 +586,7 @@ table{
 }
 @each $vehiculo in peugeotVe , PrismaVe , kwidVe , biciVe {
     .#{$vehiculo}-icon {
-        background-image: url("img/#{$vehiculo}.jpg");
+        background-image: url("Img/#{$vehiculo}.jpg");
         background-size: cover;
         background-position: center;
     }

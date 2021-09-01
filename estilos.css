@@ -656,61 +656,61 @@ table {
 }
 
 .visa-icon {
-  background-image: url("img/tarjetas/visa.png");
+  background-image: url("Img/tarjetas/visa.png");
   background-size: cover;
   background-position: center;
 }
 
 .master-icon {
-  background-image: url("img/tarjetas/master.png");
+  background-image: url("Img/tarjetas/master.png");
   background-size: cover;
   background-position: center;
 }
 
 .bbva-icon {
-  background-image: url("img/tarjetas/bbva.png");
+  background-image: url("Img/tarjetas/bbva.png");
   background-size: cover;
   background-position: center;
 }
 
 .santander-icon {
-  background-image: url("img/tarjetas/santander.png");
+  background-image: url("Img/tarjetas/santander.png");
   background-size: cover;
   background-position: center;
 }
 
 .macro-icon {
-  background-image: url("img/tarjetas/macro.png");
+  background-image: url("Img/tarjetas/macro.png");
   background-size: cover;
   background-position: center;
 }
 
 .icbc-icon {
-  background-image: url("img/tarjetas/icbc.png");
+  background-image: url("Img/tarjetas/icbc.png");
   background-size: cover;
   background-position: center;
 }
 
 .provincia-icon {
-  background-image: url("img/tarjetas/provincia.png");
+  background-image: url("Img/tarjetas/provincia.png");
   background-size: cover;
   background-position: center;
 }
 
 .nacion-icon {
-  background-image: url("img/tarjetas/nacion.png");
+  background-image: url("Img/tarjetas/nacion.png");
   background-size: cover;
   background-position: center;
 }
 
 .hipotecario-icon {
-  background-image: url("img/tarjetas/hipotecario.png");
+  background-image: url("Img/tarjetas/hipotecario.png");
   background-size: cover;
   background-position: center;
 }
 
 .itau-icon {
-  background-image: url("img/tarjetas/itau.png");
+  background-image: url("Img/tarjetas/itau.png");
   background-size: cover;
   background-position: center;
 }
@@ -776,25 +776,25 @@ table {
 }
 
 .peugeotVe-icon {
-  background-image: url("img/peugeotVe.jpg");
+  background-image: url("Img/peugeotVe.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .PrismaVe-icon {
-  background-image: url("img/PrismaVe.jpg");
+  background-image: url("Img/PrismaVe.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .kwidVe-icon {
-  background-image: url("img/kwidVe.jpg");
+  background-image: url("Img/kwidVe.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .biciVe-icon {
-  background-image: url("img/biciVe.jpg");
+  background-image: url("Img/biciVe.jpg");
   background-size: cover;
   background-position: center;
 }
