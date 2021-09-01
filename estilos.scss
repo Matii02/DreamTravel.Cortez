@@ -10,6 +10,17 @@ body{
 .carousel-inner img{
     width: 100%;
 }
+.subtitulos{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(107, 99, 128, 0.541);
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
 h2, h1{
     color: white;
     font-weight: bold;
@@ -90,17 +101,6 @@ h3{
     font-family: 'Padauk', sans-serif;
     text-align: left;
     letter-spacing: 3px;
-}
-.subtitulos{
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(107, 99, 128, 0.541);
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    display: flex;
 }
 .vuelos{
     background-color: rgba(107, 99, 128, 0.541);
@@ -250,18 +250,6 @@ h3{
     background-image: url(./Img/usuahiaV4.jpg);
     background-size: cover;
     background-position:bottom;
-}
-footer{
-    color: white;
-    height: 100px;
-    width: 100%;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Padauk', sans-serif;
-    text-align: left;
-    letter-spacing: 2px;
-    padding: 10px;
-    background-color: black;
 }
 .vehiculo:hover{
     transform: scale(1.1);
@@ -637,4 +625,40 @@ table{
     color: black;
     font-size: 1.5em;
     text-align: center;
+}
+#footer{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+}
+.contenedor{
+    height: 100%;
+}
+#logoFooter{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    display: grid;
+    justify-items: start;
+    animation: zoomInDown;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.tituloFooter{
+    color: white;
+    font-weight: bold;   
+    
+}
+.listaFooter{
+    color: white;   
+    font-weight: normal;
+    font-size: 1em; 
+    list-style-type: none;   
+}
+.listaLink{
+    color: white;   
+    font-weight: normal;
+    font-size: 1em;
 }
