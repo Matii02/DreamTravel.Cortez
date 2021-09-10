@@ -6,7 +6,6 @@
 body{
     background-image: linear-gradient(rgb(34, 34, 98), rgba(36, 36, 218, 0.486));
 }
-
 .carousel-inner img{
     width: 100%;
 }
@@ -45,6 +44,8 @@ h3{
     border-width: 6px;
     border-color: white;    
     padding: 5px;
+    margin: 5px;
+    width: 100%;
 }
 .video{
     display: flex;
@@ -493,17 +494,24 @@ table{
     align-items: center;
     align-content: center;
 }
+.cuotas{
+    width: 100%;
+    margin: 0;
+}
+.row{
+    margin:0;
+}
 .container__bank{
     height: 90px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    margin: 0 auto;
 }
 .container__bank--promo{
     text-align: center;
 }
 .tarjetas{
+    margin: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -515,7 +523,6 @@ table{
     display: flex;  
     justify-content: center;
     align-items: center;
-    
 }
 .asistencia--viajero{
     width: 100%;
@@ -661,4 +668,7 @@ table{
     color: white;   
     font-weight: normal;
     font-size: 1em;
+}
+.subBorde{
+    border-radius: 10px;
 }
