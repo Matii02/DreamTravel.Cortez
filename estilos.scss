@@ -20,14 +20,24 @@ body{
     width: 100%;
     display: flex;
 }
-h2, h1{
+h1{
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Padauk', sans-serif;
     text-align: left;
     letter-spacing: 3px;
     padding: 10px;
+}
+h2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Padauk', sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: rgba(107, 99, 128, 0.541);
 }
 
 h3{
@@ -36,7 +46,7 @@ h3{
     font-size: 20px;
     font-family: 'Padauk', sans-serif;
     text-align: left;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding: 10px;
 }
 #carousel{
@@ -252,9 +262,6 @@ h3{
     background-size: cover;
     background-position:bottom;
 }
-.vehiculo:hover{
-    transform: scale(1.1);
-}
 .reset{
     width: 100px;
     height: 25px;
@@ -272,43 +279,37 @@ h3{
     animation: backInLeft;
     animation-duration: 2s;
 }
-.vehiculo1{
-    grid-column-start:1 ;
-    grid-column-end: 2;
-}
-.vehiculo2{
-    grid-column-start:2;
-    grid-column-end: 3;
-}
-.vehiculo3{
-    grid-row-start:2 ;
-    grid-row-end: 3;
-}
-.vehiculo4{
-    grid-column-start:3 ;
-    grid-column-end: 2;
+.vehiculo:hover{
+    transform: scale(1.1);
 }
 #vehiculo{
-    background-color: rgba(107, 99, 128, 0.541);
     width: 100%;
     height: 700px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
 }
 .vehiculo{
-    font-size: 30px;
-    border: 3px solid black;
-    padding: 10px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgVehiculos{
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgba(107, 99, 128, 0.541);
+    width: 80%;
+    height: 250px;
+    padding: 5px;
 }
 .img2{
     width: 200px;
-    height: 150px;
+    height: 100px;
     border-style: solid;
     border-width: 3px;
-    border-color: white;  
-    padding: 5px;
+    border-color: white;
+}
+.imgHotel{
+    padding: 10px;
 }
 h2{
     color: white;
@@ -320,13 +321,13 @@ h2{
     padding: 10px;
     background-color: rgba(107, 99, 128, 0.541);
 }
-
-.imgOrden{
-    width: 600vp;
-}
 .imgOrden2{
     width: 600vp;
     height: 400px;
+    margin: 10px;
+}
+.imagenHotel{
+    width: 100%;
 }
 .hotelInicio{
     width: 600vp;
@@ -374,16 +375,11 @@ table{
     background-color: rgba(107, 99, 128, 0.541);
     width: 100%;
 }
-@media (max-width:450px){
+@media (max-width:590px){
     .imgOrden2{
         position: relative;
     }
     .imgOrden{
-        position: relative;
-    }
-    .img2{  
-        width: 100%;
-        height: 350px;
         position: relative;
     }
     .parrafo{
@@ -437,14 +433,22 @@ table{
         grid-area: foto5;
     }
     .subtitulos{
-        font-size: 15px;
+        font-size: 20px;
         letter-spacing: 3px;
+    }
+    .subtitulos2{
+        font-size: 15px;
+    }
+}
+@media (max-width:770px){
+    #vehiculo{
+        height: 1100px;
     }
 }
 .div__p{
     color: white;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 1em;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
     width: 100%;
@@ -452,14 +456,7 @@ table{
     padding: 10px;
     animation: slideInLeft;
     animation-duration: 5s;
-}
-.div__p--align{
     text-align:justify;
-}
-.section__article--border{
-    border-style: solid;
-    border-width: 6px;
-    border-color: rgba(107, 99, 128, 0.541);
 }
 .div__a--bg{
     background-color:rgba(107, 99, 128, 0.541) ;
@@ -487,7 +484,6 @@ table{
 #contacto{
     width: 100%;
     height: 100%;
-    margin: 5px;
     background-color: rgba(107, 99, 128, 0.541); 
     display: flex;
     justify-content:flex-start;
@@ -525,10 +521,11 @@ table{
     align-items: center;
 }
 .asistencia--viajero{
-    width: 100%;
+    width: 90%;
     height: 250px;
     border-radius: 10px;
     margin: 0 auto;
+    position: relative;
 }
 .assistCard{
     height: 190px;
@@ -545,7 +542,7 @@ table{
     background-color: rgba(107, 99, 128, 0.541);
     color: white;
     text-align: center;
-    height: 30px;
+    height: 40px;
     width: 100%;
     display: flex;
     font-weight: bold;
@@ -573,19 +570,6 @@ table{
     color: rgba(255, 255, 255, 0);
     }
 }    
-@for $i from 1 through 4{
-    .hotelFilas#{$i} {
-        width: 6em * $i;
-        height: 5em * $i;
-    }
-}
-@each $vehiculo in peugeotVe , PrismaVe , kwidVe , biciVe {
-    .#{$vehiculo}-icon {
-        background-image: url("Img/#{$vehiculo}.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-}
 #error404{
     background-image: url(./Img/fondo-error.jpg);
     background-position: center;
