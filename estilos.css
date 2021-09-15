@@ -9,8 +9,13 @@ body {
   background-image: linear-gradient(#222262, rgba(36, 36, 218, 0.486));
 }
 
-.carousel-inner img {
+.carousel-inner {
   width: 100%;
+}
+
+.imgCarousel {
+  width: 100%;
+  height: 450px;
 }
 
 .subtitulos {
@@ -515,6 +520,35 @@ table {
 @media (max-width: 770px) {
   #vehiculo {
     height: 1100px;
+  }
+
+  .vuelo {
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .vuelo:hover {
+    height: 250px;
+    width: 250px;
+    color: black;
+  }
+
+  .visa-icon {
+    background-image: url("Img/tarjetas/visa.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .master-icon {
+    background-image: url("Img/tarjetas/master.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bbva-icon {
+    background-image: url("Img/tarjetas/bbva.png");
+    background-size: cover;
+    background-position: center;
   }
 }
 .div__p {
