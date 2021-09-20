@@ -157,15 +157,6 @@ h3{
     grid-column-start: 1;
     grid-column-end: 3;
 }
-.compra{
-    color: white;
-}
-.compra:hover{
-    height: 40px;
-    width: 150px;
-    background-color: rgb(82, 243, 82);
-    color:black;
-}
 #bari1{
     background-image: url(./Img/barilocheVuelo1.jpg);
     background-size: cover;
@@ -356,22 +347,16 @@ h2{
     border-width: 3px;
     border-color: white;
 }
-table{
-    background-color:rgb(34, 115, 247);
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-    letter-spacing: 2px;
-    border-style:inset;
-    border-width: 5px;
-    border-color: rgb(59, 53, 77);
-}
-.table1{
+.compraVuelos{
     border-color: rgb(59, 53, 77);
     border-width: 3px;
-    border-style: double; 
+    border-style: solid; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.compraVuelos--centrar{
+    display: flex;
+    justify-content: space-evenly;
 }
 .parrafo{
     width: 100%;
@@ -671,3 +656,4 @@ table{
 .subBorde{
     border-radius: 10px;
 }
+
